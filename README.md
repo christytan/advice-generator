@@ -61,8 +61,6 @@ const fetchAdvice = async function () {
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 ### Useful resources
 
 - [Difference between display:none, opacity:0, visibility: hidden](https://stackoverflow.com/questions/14731049/visibilityhidden-vs-displaynone-vs-opacity0) - This helped me understand the difference between display, opacity and visibility on how to hide one html component.
