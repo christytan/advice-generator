@@ -41,6 +41,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Javascript Async/Await
+- Flexbox
 - Responsive workflow
 - [Styled Components](https://styled-components.com/) - For styles
 
@@ -51,6 +52,13 @@ Users should be able to:
 }
 @media screen and (max-width: 375px) {
 }
+```
+
+```css - center container in body
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
 ```
 
 ```js
