@@ -1,0 +1,120 @@
+/* For Desktop */
+
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: hsl(218, 23%, 16%);
+  font-family: Manrope;
+  font-weight: 800;
+}
+body {
+  font-size: 28px;
+  text-align: center;
+}
+
+/* advice container */
+.advice {
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+
+  width: 500px;
+  height: auto;
+
+  margin: 100px auto;
+  padding-top: 20px;
+
+  position: relative;
+}
+
+.advice-title {
+  color: hsl(150, 100%, 66%);
+  font-size: 18px;
+}
+.advice-content {
+  color: hsl(193, 38%, 86%);
+}
+
+.advice-separate {
+  /* LEARN */
+  /* center svg */
+  display: block;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.advice-btn {
+  position: absolute;
+
+  top: 90%;
+  left: 46%;
+}
+
+.advice-circle {
+  width: 50px;
+  height: 50px;
+}
+
+.advice-dice {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+.mobile {
+  display: none;
+}
+
+.filter-green {
+  /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%); */
+  /* filter: invert(76%) sepia(74%) saturate(363%) hue-rotate(85deg)
+    brightness(101%) contrast(104%); */
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .advice {
+    width: 350px;
+    height: auto;
+  }
+
+  .mobile {
+    display: inline;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .advice-btn {
+    position: absolute;
+
+    top: 93%;
+    left: 44%;
+  }
+
+  .advice-dice {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: 25%;
+    left: 30%;
+  }
+}
+
+/* For Mobile */
+
+/* attribution */
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
