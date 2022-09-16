@@ -1,5 +1,6 @@
 const adviceTitle = document.querySelector(".advice-title");
 const adviceContent = document.querySelector(".advice-content");
+const diceBtn = document.querySelector(".advice-btn");
 
 let advice = "";
 
@@ -16,6 +17,7 @@ const fetchAdvice = async function () {
 };
 
 const renderAdvice = async function () {
+  //console.log("clicked");
   advice = await fetchAdvice();
   console.log(advice);
   adviceTitle.textContent = `Advice # ${advice.slip.id}`;
@@ -23,3 +25,5 @@ const renderAdvice = async function () {
 };
 
 renderAdvice();
+
+diceBtn.addEventListener("click", renderAdvice);
